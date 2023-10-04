@@ -1,0 +1,21 @@
+.emoji-container {
+    display: flex;
+}
+
+.emoji {
+    border: 2px solid black;
+    font-size: 3rem;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin-left: 5px;
+}
+
+.emoji:hover {
+    background-color: blue;
+}
+
+.selected-emoji {
+    background-color: blue;
+}
